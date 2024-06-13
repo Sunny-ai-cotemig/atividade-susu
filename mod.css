@@ -1,0 +1,383 @@
+*{box-sizing: border-box;}
+
+#menu{
+    background-color: black;
+    flex-direction: column;
+    width: 220px;
+    display: flex;
+    height: 100vh;
+    width: 13%;
+    position: sticky;
+    padding: 30px;
+    top: 0;
+}
+
+#menu > div{
+    color: white;
+}
+#menu a{
+    color: #fff;
+    text-decoration: none;
+}
+#menu ul{
+list-style: none;
+padding: 0%;
+margin-top: 20px;
+font-family: sans-serif;
+}
+#menu li{
+    margin-bottom: 15px;
+}
+header svg{
+  fill: white;
+  height: 15px;
+  margin-right: 15px;
+  display: flex;
+}
+#name{
+    padding-bottom: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.neme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 7.5%;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+main{ 
+   
+    background-image: url(img_9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 87%;
+
+}
+#welcome{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    backdrop-filter: brightness(50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+#titulo{
+    margin-bottom: 1%;
+    font-size: 1.5em;
+}
+#expli{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 43.5%;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+#botao{
+    margin-top: 2%;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+#botao a{
+    text-decoration: none;
+    color: #fff;
+}
+#imag{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: black;
+   justify-content: space-between;
+   row-gap: 6px; 
+}
+#imag div{
+    width: 33%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+#imag img{
+    width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: 1s;
+}
+#imag svg{
+    fill: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  height: 30px;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  transition: 1s;
+}
+#meio{
+    text-align: center;
+    display: block;
+    width:  100%;
+    height: 70vh;
+    background-color: black;
+    padding: 70px;
+}
+#meio h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  
+}
+#meio img{
+    border-radius: 100px;
+  justify-content: center;
+  display: flex-end;
+  width: 105px;
+  height: 105px;
+}
+#meio h2{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+#meio p{
+    color: gray;
+  font-family: "Quicksand", sans-serif;
+  
+}
+#biografia
+  {
+    width: 100%;
+    height: 200vh;
+    background-color: #1a1a1a;
+    padding: 400px;
+    padding-left: 200px;
+
+  
+  }
+  
+  
+  #biografia h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Oswald", arial, sans-serif;
+  }
+  
+  #biografia img{
+    width: 400px;
+    height: 400px;
+
+  }
+  
+  #biografia h2{
+    color: white;
+    font-size: 2rem;
+    font-family: "Oswald", arial, sans-serif;
+  }
+  
+  #biografia p{
+    font-family: "Quicksand", sans-serif;   
+    color: gray;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-top: 0;
+}
+  #biografia ul{
+    list-style: none;
+    font-size: 20px;
+    color: gray;
+    
+}
+#biografia a{
+  color: #df0e62;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+#flex-li{
+  display: flex;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.emoji{
+  display: flex;
+}
+#BLOG{
+  background-color: #000000; 
+  width: 100%;
+  height: 200vh;
+  padding: 120px;
+  padding-inline: 200px;
+}
+#BLOG h1{
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 3.5rem;
+}
+#BLOG img{
+  width: 250px;
+  height: auto;
+}
+#BLOG p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #fff;
+
+  margin: 0px;
+  color: gray;
+
+}
+#BLOG h2{
+  color: #fff;
+  font-family: "Oswald";
+}
+#primeiro{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 8.5vh;
+}
+#segundo{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 8.5vh;
+}
+#terceiro{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 8.5vh;
+}
+#quarto{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 8.5vh;
+}
+#BLOG a{
+  color: #df0e62;
+    text-decoration: none;
+    background-color: transparent;
+}
+#numero{
+  display: flex;
+  color: #fff;
+  color: gray;
+  justify-content: center;
+  gap: 10px;
+}
+#numero a{
+  color: #df0e62;
+    text-decoration: none;
+    background-color: transparent;
+}
+#contato{
+  background: #1a1a1a;
+  position: relative;
+  padding: 200px;
+  display: block;
+  color: #fff;
+  padding-right: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+#contato h1{
+  font-family: "Oswald", arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 1em;
+}
+#primeira-part{
+  width: 100%;
+  display: flex;
+}
+.com {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+input{
+  border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#botao2{
+  margin-top: 2%;
+    border-radius: 30px;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: #df0e62;
+    border-color: #df0e62;
+  width: fit-content;
+  font-family: 'Quicksand';
+  font-weight: 300px;
+}
+#botao2 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+#aaa{
+  display: flex;
+}
+#contato p{
+  font-family: "Quicksand";
+} 
+#zinza{
+  font-family: "Quicksand";
+  color: gray;
+}
+
+#textRodape
+{
+  text-align: center;
+  color: gray;
+}
+
+footer
+{
+  background-color: #000000;
+  height: 10;
+  width: 100%;;
+}
